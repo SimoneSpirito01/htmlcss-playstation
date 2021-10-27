@@ -8,11 +8,6 @@
     height: 100%;
 }
 
-.jumbo .box {
-    height: 100px;
-    border: 1px solid black;
-    border-radius: 25px;
-}
 
 /* **** main **** */
 
@@ -39,18 +34,31 @@
     background-color: salmon;
 }
 
+.debug .jumbo .box {
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
 .debug .ps5_top {
-    height: 200px;
     background-color: chartreuse;
 }
 
 .debug .ps5_center {
-    height: 400px;
     background-color: rebeccapurple;
 }
 
+.debug .ps5_title, .debug .ps5_img {
+    height: 300px;
+    border: 1px solid black;
+}
+
 .debug .ps5_bottom {
-    height: 200px;
     background-color: yellow;
+}
+
+.debug .ps5_bottom .box {
+    height: 120px;
+    border: 1px solid black;
 }
 
