@@ -107,3 +107,12 @@
     background-color: darkgreen;
 }
 
+.debug .social {
+    background-color: darkmagenta;
+}
+
+.debug .social .box {
+    height: 200px;
+    border: 1px solid black;
+}
+
