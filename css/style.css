@@ -16,6 +16,10 @@ body {
     height: 250px;
 }
 
+.ms_h2 {
+    font-size: 2.3rem;
+}
+
 /* **** header **** */
 
 .header_top img {
@@ -35,14 +39,14 @@ body {
 }
 
 .jumbo_top img {
-    width: 55%;
+    width: 50%;
 }
 
 .jumbo_top p {
     font-size: 0.9rem;
 }
 
-.jumbo_top button {
+.jumbo_top button, .it2 button {
     background-color: #cd3d0f;
 }
 
@@ -54,6 +58,8 @@ body {
 
 /* **** main **** */
 
+/* ps5 */
+
 .ps5_img img {
     width: 100%;
 }
@@ -61,6 +67,18 @@ body {
 .ps5_bottom img {
     display: block;
     width: 100%;
+}
+
+/* it2 */
+
+.it2 {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.it2 img{
+    width: 55%;
 }
 
 /* **** footer **** */
@@ -124,9 +142,9 @@ body {
 } */
 
 
-.debug .it2 {
+/* .debug .it2 {
     background-color: turquoise;
-}
+} */
 
 .debug .news {
     background-color: thistle;
