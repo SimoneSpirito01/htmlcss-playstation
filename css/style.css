@@ -10,10 +10,11 @@
 
 /* **** header **** */
 
+.header_top img {
+    width: 70px;
+}
+
 /* **** jumbo **** */
-
-
-
 
 /* **** main **** */
 
@@ -30,7 +31,6 @@
 /* debug */
 
 .debug .header_top {
-    height: 40px;
     background-color: black;
 }
 
