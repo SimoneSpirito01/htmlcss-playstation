@@ -1,12 +1,18 @@
+/* commons */
 
+.ms_container {
+    height: 400px;
+}
+
+.ms_container_2 {
+    height: 250px;
+}
 
 /* **** header **** */
 
 /* **** jumbo **** */
 
-.ms_container {
-    height: 400px;
-}
+
 
 
 /* **** main **** */
@@ -82,5 +88,9 @@
 .debug .esplora .box {
     height: 200px;
     border: 1px solid black;
+}
+
+.debug .p_plus {
+    background-color: yellowgreen;
 }
 
