@@ -65,3 +65,13 @@
     background-color: turquoise;
 }
 
+.debug .news {
+    background-color: thistle;
+}
+
+.debug .news .box {
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
