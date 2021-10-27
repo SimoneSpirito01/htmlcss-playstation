@@ -1,5 +1,9 @@
 /* commons */
 
+html {
+    font-size: 14px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -50,6 +54,15 @@ body {
 
 /* **** main **** */
 
+.ps5_img img {
+    width: 100%;
+}
+
+.ps5_bottom img {
+    display: block;
+    width: 100%;
+}
+
 /* **** footer **** */
 
 .footer_top ul li {
@@ -88,27 +101,28 @@ body {
     border-radius: 25px;
 } */
 
-.debug .ps5_top {
+/* .debug .ps5_top {
     background-color: chartreuse;
-}
+} */
 
-.debug .ps5_center {
+/* .debug .ps5_center {
     background-color: rebeccapurple;
 }
 
 .debug .ps5_title, .debug .ps5_img {
     height: 300px;
     border: 1px solid black;
-}
+} */
 
-.debug .ps5_bottom {
+/* .debug .ps5_bottom {
     background-color: yellow;
 }
 
 .debug .ps5_bottom .box {
     height: 120px;
     border: 1px solid black;
-}
+} */
+
 
 .debug .it2 {
     background-color: turquoise;
