@@ -12,10 +12,6 @@ body {
     height: 500px;
 }
 
-.ms_container_2 {
-    height: 250px;
-}
-
 .ms_h2 {
     font-size: 2.3rem;
 }
@@ -114,6 +110,27 @@ body {
     margin: 0 auto;
 }
 
+/* p-plus */
+
+.p_plus {
+    background-color: #bebcbb;
+}
+
+.p_plus img {
+    width: 55%;
+    object-fit: cover;
+}
+
+/* .p_plus .ms_bg_plus {
+    background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
+    background-size: cover;
+} */
+
+.p_plus button {
+    color: #3267e5;
+    background-color: #d9dadc;
+}
+
 /* **** footer **** */
 
 .footer_top ul li {
@@ -198,9 +215,9 @@ body {
     border: 1px solid black;
 } */
 
-.debug .p_plus {
+/* .debug .p_plus {
     background-color: yellowgreen;
-}
+} */
 
 .debug .sconti {
     background-color: chocolate;
