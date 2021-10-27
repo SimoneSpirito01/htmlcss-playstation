@@ -94,3 +94,12 @@
     background-color: yellowgreen;
 }
 
+.debug .sconti {
+    background-color: chocolate;
+}
+
+.debug .sconti .box {
+    height: 250px;
+    border: 1px solid black;
+}
+
