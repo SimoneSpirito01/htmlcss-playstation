@@ -14,6 +14,10 @@
     width: 70px;
 }
 
+.header_bottom nav {
+    font-size: 0.9rem;
+}
+
 /* **** jumbo **** */
 
 /* **** main **** */
@@ -28,16 +32,18 @@
     text-decoration: none;
 }
 
+
+
 /* debug */
 
-.debug .header_top {
+/* .debug .header_top {
     background-color: black;
-}
+} */
 
-.debug .header_bottom {
+/* .debug .header_bottom {
     height: 80px;
     background-color: red;
-}
+} */
 
 .debug .jumbo_top {
     background-color: royalblue;
