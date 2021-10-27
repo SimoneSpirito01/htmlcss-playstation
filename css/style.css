@@ -38,8 +38,14 @@ body {
     font-size: 0.9rem;
 }
 
-.jumbo button {
+.jumbo_top button {
     background-color: #cd3d0f;
+}
+
+.jumbo_bottom img {
+    display: block;
+    border-radius: 20px;
+    width: 100%;
 }
 
 /* **** main **** */
@@ -53,6 +59,7 @@ body {
 .footer_top ul li a {
     text-decoration: none;
 }
+
 
 
 
@@ -71,15 +78,15 @@ body {
     background-color: royalblue;
 } */
 
-.debug .jumbo_bottom {
+/* .debug .jumbo_bottom {
     background-color: salmon;
-}
+} */
 
-.debug .jumbo .box {
+/* .debug .jumbo .box {
     height: 100px;
     border: 1px solid black;
     border-radius: 25px;
-}
+} */
 
 .debug .ps5_top {
     background-color: chartreuse;
