@@ -19,6 +19,14 @@
 
 /* **** footer **** */
 
+.footer_top ul li {
+    list-style: none;
+}
+
+.footer_top ul li a {
+    text-decoration: none;
+}
+
 /* debug */
 
 .debug .header_top {
@@ -116,3 +124,10 @@
     border: 1px solid black;
 }
 
+.debug .footer_top {
+    background-color: darksalmon;
+}
+
+.debug .footer_bottom {
+    background-color: lightblue;
+}
