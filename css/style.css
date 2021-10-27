@@ -92,10 +92,6 @@ body {
     margin: 0 auto;
 }
 
-.news .box {
-    text-align: center;
-}
-
 .news .box p {
     font-size: 0.8rem;
 }
@@ -137,6 +133,13 @@ body {
 
 .p_now img {
     width: 55%;
+}
+
+/* social */
+
+.social img {
+    width: 100%;
+    max-width: 150px;
 }
 
 /* **** footer **** */
@@ -240,14 +243,14 @@ body {
     background-color: darkgreen;
 } */
 
-.debug .social {
+/* .debug .social {
     background-color: darkmagenta;
 }
 
 .debug .social .box {
     height: 200px;
     border: 1px solid black;
-}
+} */
 
 .debug .footer_top {
     background-color: darksalmon;
