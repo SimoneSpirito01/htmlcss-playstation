@@ -4,8 +4,8 @@
 
 /* **** jumbo **** */
 
-.container_jumbo {
-    height: 100%;
+.ms_container {
+    height: 400px;
 }
 
 
@@ -26,7 +26,6 @@
 }
 
 .debug .jumbo_top {
-    height: 400px;
     background-color: royalblue;
 }
 
@@ -60,5 +59,9 @@
 .debug .ps5_bottom .box {
     height: 120px;
     border: 1px solid black;
+}
+
+.debug .it2 {
+    background-color: turquoise;
 }
 
