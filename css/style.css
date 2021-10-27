@@ -1,7 +1,11 @@
 /* commons */
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .ms_container {
-    height: 400px;
+    height: 500px;
 }
 
 .ms_container_2 {
@@ -19,6 +23,24 @@
 }
 
 /* **** jumbo **** */
+
+.jumbo_top {
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbo_top img {
+    width: 55%;
+}
+
+.jumbo_top p {
+    font-size: 0.9rem;
+}
+
+.jumbo button {
+    background-color: #cd3d0f;
+}
 
 /* **** main **** */
 
@@ -45,9 +67,9 @@
     background-color: red;
 } */
 
-.debug .jumbo_top {
+/* .debug .jumbo_top {
     background-color: royalblue;
-}
+} */
 
 .debug .jumbo_bottom {
     background-color: salmon;
