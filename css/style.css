@@ -47,7 +47,6 @@ body {
 }
 
 .jumbo_bottom img {
-    display: block;
     border-radius: 20px;
     width: 100%;
     max-width: 200px;
@@ -60,10 +59,10 @@ body {
 
 .ps5_img img {
     width: 100%;
+    max-width: 500px;
 }
 
 .ps5_bottom img {
-    display: block;
     width: 100%;
     max-width: 200px;
 }
@@ -87,7 +86,6 @@ body {
 }
 
 .news img {
-    display: block;
     border-radius: 15px;
     width: 100%;
     max-width: 200px;
@@ -118,17 +116,27 @@ body {
 
 .p_plus img {
     width: 55%;
-    object-fit: cover;
 }
-
-/* .p_plus .ms_bg_plus {
-    background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
-    background-size: cover;
-} */
 
 .p_plus button {
     color: #3267e5;
     background-color: #d9dadc;
+}
+
+/* sconti */
+
+.sconti img {
+    width: 100%;
+}
+
+/* p_now */
+
+.p_now {
+    background-color: #161c3b;
+}
+
+.p_now img {
+    width: 55%;
 }
 
 /* **** footer **** */
@@ -219,18 +227,18 @@ body {
     background-color: yellowgreen;
 } */
 
-.debug .sconti {
+/* .debug .sconti {
     background-color: chocolate;
 }
 
 .debug .sconti .box {
     height: 250px;
     border: 1px solid black;
-}
+} */
 
-.debug .p_now {
+/* .debug .p_now {
     background-color: darkgreen;
-}
+} */
 
 .debug .social {
     background-color: darkmagenta;
