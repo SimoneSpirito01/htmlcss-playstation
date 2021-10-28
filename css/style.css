@@ -20,18 +20,68 @@ body {
     margin: 0;
 }
 
+.ms_border_top {
+    border-top: 1px solid lightgrey;
+}
+
+.ms_dot {
+    font-size: 0.6rem;
+}
+
 /* **** header **** */
 
-header img {
+header {
+    display: unset;
+}
+
+.header_top img {
     width: 70px;
+}
+
+.header_bottom {
+    font-size: 0.9rem;
+    position: sticky;
+    top: 0;
 }
 
 /* **** nav **** */
 
-.ms_navbar {
-    font-size: 0.9rem;
-    position: sticky;
-    top: 0;
+.ms_li {
+    position: initial;
+}
+
+.ms_ul_dm {
+    font-size: 13px;
+    background-color: white;
+    top: 0px !important;
+    left: 110px !important;
+    right: 20px;
+    padding: 0;
+    margin: 0 !important;
+    border: none;
+    border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ms_ul_dm li::marker {
+    display: none;
+}
+
+.ms_ul_dm img {
+    width: 50px;
+}
+
+.ms_div_nb {
+    height: 30px;
+    line-height: 30px;
+}
+
+.ms_a_nb::after {
+    content: none;
+}
+
+.ms_a_nb i {
+    font-size: 0.6rem;
 }
 
 /* **** jumbo **** */
@@ -59,6 +109,7 @@ header img {
     width: 100%;
     max-width: 200px;
     margin: 0 auto;
+    transition: 1s;
 }
 
 /* **** main **** */
@@ -73,6 +124,13 @@ header img {
 .ps5_bottom img {
     width: 100%;
     max-width: 200px;
+    filter: grayscale(100%);
+    
+}
+
+.ms_col_ps5 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
 }
 
 /* it2 */
@@ -186,7 +244,49 @@ footer {
 
 .footer_bottom img {
     width: 100px;
+}
 
+/* effetti hover */
+
+.jumbo_bottom img:hover {
+    transform: translateY(-20%);
+}
+
+.ps5_bottom .ms_col_ps5:hover {
+    border-bottom: 2px solid blue;
+}
+
+.ps5_bottom img:hover {
+    filter: none;
+   
+}
+
+@media (max-width: 492px) {
+
+    .ms_ul_dm {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .ms_ul_dm {
+        bottom: 155px !important;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .ms_ul_dm {
+        top: 70px !important; 
+        right: 0px; 
+        left: 0px !important;
+    }
+
+    .ms_position_initial {
+        position: initial !important;
+
+    }
 }
 
 
