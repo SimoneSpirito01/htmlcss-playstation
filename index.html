@@ -16,72 +16,69 @@
 <body class="debug">
 
     <!-- inizio header -->
-    <header>
+    <header class="bg-dark">
 
-        <!-- header top -->
-        <div class="header_top bg-dark">
+        <div class="container-fluid">
 
-            <div class="container-fluid">
-
-                <div class="header_logo d-flex justify-content-end py-2">
-                    <img src="img/sony_logo.svg" alt="sony_logo">
-                </div>
-
+            <div class="header_logo d-flex justify-content-end py-2">
+                <img src="img/sony_logo.svg" alt="sony_logo">
             </div>
 
         </div>
-        <!-- /header top -->
-
-        <!-- header bottom -->
-        <div class="header_bottom">
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt="play_logo"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item me-2">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item me-2">
-                                <a class="nav-link" href="#">Giochi</a>
-                            </li>
-                            <li class="nav-item me-2">
-                                <a class="nav-link" href="#">Hardware</a>
-                            </li>
-                            <li class="nav-item me-2">
-                                <a class="nav-link" href="#">Servizi</a>
-                            </li>
-                            <li class="nav-item me-2">
-                                <a class="nav-link" href="#">Novità</a>
-                            </li>
-                            <li class="nav-item me-2">
-                                <a class="nav-link" href="#">Fai acquisti</a>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav align-items-lg-center">
-                            <li class="nav-item ms-lg-2">
-                                <a class="nav-link" href="#">My PlayStation</a>
-                            </li>
-                            <li class="nav-item ms-lg-2">
-                                <a class="nav-link rounded-pill text-white py-1 px-2 my-3 my-lg-0 bg-dark bg-gradient d-inline-block d-lg-block ms_accedi" href="#">Accedi</a>
-                            </li>
-                            <li class="nav-item ms-lg-2">
-                                <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
-        </div>
-        <!-- /header bottom -->
 
     </header>
     <!-- /header -->
+
+    <!-- inizio nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white ms_navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt="play_logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Home
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#">Giochi</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#">Hardware</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#">Servizi</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#">Novità</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#">Fai acquisti</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav align-items-lg-center">
+                    <li class="nav-item ms-lg-2">
+                        <a class="nav-link" href="#">My PlayStation</a>
+                    </li>
+                    <li class="nav-item ms-lg-2">
+                        <a class="nav-link rounded-pill text-white py-1 px-2 my-3 my-lg-0 bg-dark bg-gradient d-inline-block d-lg-block ms_accedi" href="#">Accedi</a>
+                    </li>
+                    <li class="nav-item ms-lg-2">
+                        <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- /nav -->
 
     <!-- inizio jumbo -->
     <div class="jumbo">
@@ -741,9 +738,6 @@
 
     </footer>
     <!-- /footer -->
-    
-
-
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
