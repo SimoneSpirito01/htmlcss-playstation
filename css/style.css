@@ -37,6 +37,10 @@ body {
     border: 2px solid transparent;
 }
 
+.box {
+    cursor: pointer;
+}
+
 /* **** header **** */
 
 header {
@@ -162,6 +166,10 @@ header {
     background-color: #1f1f1f;
 }
 
+.news .box {
+    transition: 0.5s;
+}
+
 .news img {
     border-radius: 15px;
     width: 100%;
@@ -200,6 +208,9 @@ header {
 
 .sconti img {
     width: 100%;
+    border-radius: 15px;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /* p_now */
@@ -217,6 +228,9 @@ header {
 .social img {
     width: 100%;
     max-width: 150px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.5s;
 }
 
 /* **** footer **** */
@@ -307,7 +321,20 @@ footer {
 
 .ps5_bottom img:hover {
     filter: none;
-   
+}
+
+.news .box:hover,
+.sconti img:hover,
+.social img:hover {
+    transform: scale(105%);
+}
+
+.footer_top li:hover a {
+    text-decoration: underline;
+}
+
+.footer_bottom a:hover {
+    text-decoration: none;
 }
 
 @media (min-width: 492px) {
